@@ -24,3 +24,13 @@ the prompt.
 cd ibex-code-server-install/
 source install-code-server.sh
 ```
+
+## Unisntalling VS Code Server
+
+VS Code Server can be completely uninstalled by removing the application directory, and your 
+user configuration directories. To uninstall VS Code Server source the uninstall script.
+
+```bash
+cd ~/ibex-code-server-install/
+source uninstall-code-server.sh
+```
